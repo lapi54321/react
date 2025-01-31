@@ -1,0 +1,74 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, yellow, orange);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form {
+    background: white;
+    padding: 20px 30px;
+    border-radius: 10px;
+    width: 400px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 14px;
+    color:darkslategrey;
+    margin-bottom: 20px;
+}
+
+.formgroup {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+label {
+    font-size: 14px;
+    display: block;
+    margin-bottom: 5px;
+    color: black;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    border: 5px solid silver;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.name-fields {
+    display: flex;
+    gap: 10px;
+}
+
+.name-fields input {
+    flex: 1;
+}
+
+button {
+    background-color: skyblue;
+    color: whitesmoke;
+    border: 2px;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: green;
+}
