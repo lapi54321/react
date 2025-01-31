@@ -1,19 +1,18 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: Arial;
     margin: 0;
     padding: 0;
-    background: linear-gradient(to bottom, #ff9a00, #ff6f00);
+    background: linear-gradient(to bottom, yellow, orange);
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
 }
 
-.form-container {
-    background: #fff;
+.form {
+    background: white;
     padding: 20px 30px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     width: 400px;
     text-align: center;
 }
@@ -25,11 +24,11 @@ h1 {
 
 p {
     font-size: 14px;
-    color: #666;
+    color:darkslategrey;
     margin-bottom: 20px;
 }
 
-.form-group {
+.formgroup {
     margin-bottom: 15px;
     text-align: left;
 }
@@ -38,14 +37,14 @@ label {
     font-size: 14px;
     display: block;
     margin-bottom: 5px;
-    color: #333;
+    color: black;
 }
 
 input, select {
     width: 100%;
     padding: 8px;
     font-size: 14px;
-    border: 1px solid #ccc;
+    border: 5px solid silver;
     border-radius: 5px;
     box-sizing: border-box;
 }
@@ -60,9 +59,9 @@ input, select {
 }
 
 button {
-    background-color: #28a745;
-    color: #fff;
-    border: none;
+    background-color: skyblue;
+    color: whitesmoke;
+    border: 2px;
     padding: 10px 15px;
     font-size: 16px;
     border-radius: 5px;
@@ -71,5 +70,5 @@ button {
 }
 
 button:hover {
-    background-color: #218838;
+    background-color: green;
 }
