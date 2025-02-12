@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendar</title>
+    <link rel="stylesheet" href="calendar.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container-calendar">
+            <div id="left">
+                <h1>Event Calendar</h1>
+                <div class="button-container-calendar">
+                    <button id="previous" onclick="previous()">Previous</button>
+                    <h2 id="monthAndYear"></h2>
+                    <button id="next" onclick="next()">Next</button>
+                </div>
+                <table class="table-calendar">
+                    <thead>
+                        <tr id="thead-month"></tr>
+                    </thead>
+                    <tbody id="calendar-body"></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="calendar.js"></script>
+</body>
+</html>
